@@ -15,7 +15,7 @@
 		"dev": "vite",
 		"lint": "xo",
 		"build": "vite build",
-		"test": "node --test build/icon-catalog.test.mjs && node --run build && node --run lint",
+		"test": "node --test build/icon-catalog.test.mjs && node --run build && node --test build/icon-files.test.mjs && node --run lint",
 		"deps": "VITE_ENABLE_VISUALIZER=true npm run build",
 		"preview": "vite preview",
 		"serve": "vite serve dist/",
@@ -75,6 +75,7 @@
 		"typescript": "^6.0.3",
 		"use-image": "^1.1.4",
 		"vite": "^8.3.8",
+		"vite-plugin-static-copy": "^4.1.1",
 		"wrangler": "^4.151.3",
 		"xo": "^5.0.1"
 	}

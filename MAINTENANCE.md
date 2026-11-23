@@ -6,6 +6,10 @@ The icon catalog comes from the installed `simple-icons` npm package. `npm ci`
 uses the version recorded in `package-lock.json`; updating the catalog requires
 updating that dependency, rebuilding, and deploying the site.
 
+The development server serves the package's original SVG files at
+`/icons/<slug>.svg`. The production build copies them to `dist/icons/` so
+existing links and embeds keep working.
+
 The Vite plugin in `build/icon-catalog.ts` packages metadata and SVG paths into a
 content-hashed WebAssembly asset. It generates a standard data-only Wasm module
 without requiring a Rust or C compiler. The development server serves the same
@@ -24,9 +28,10 @@ runs lint. The build emits the catalog and Worker beside the other static assets
 ## Caching on Cloudflare Pages
 
 The build generates `dist/_headers` with a one-year browser cache rule for each
-emitted asset, including the icon catalog and Workers. HTML uses Pages' default
-revalidation policy. Missing assets return HTTP 404 through `public/404.html` and
-use the default cache policy.
+file under `/assets/`, including the icon catalog and Workers. Pages and the
+custom domain's cache settings determine the cache headers for HTML and the
+stable SVG URLs under `/icons/`. Missing assets return HTTP 404 through
+`public/404.html` and use the default cache policy.
 
 Pages has its own built-in asset cache. A custom domain's `CF-Cache-Status` refers
 to a separate CDN cache layer, and `.wasm` is not among that layer's default cached

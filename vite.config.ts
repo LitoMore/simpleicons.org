@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import react, {reactCompilerPreset} from '@vitejs/plugin-react';
 import {visualizer} from 'rollup-plugin-visualizer';
 import {type Plugin, defineConfig} from 'vite';
+import {viteStaticCopy} from 'vite-plugin-static-copy';
 import iconCatalogPlugin from './build/icon-catalog.js';
 import pageMetadataPlugin from './build/page-metadata.js';
 
@@ -15,6 +16,15 @@ export default defineConfig({
 	preview: {host: '127.0.0.1', port: 5173, strictPort: true},
 	plugins: [
 		iconCatalogPlugin(),
+		viteStaticCopy({
+			targets: [
+				{
+					src: 'node_modules/simple-icons/icons/*.svg',
+					dest: 'icons',
+					rename: {stripBase: true},
+				},
+			],
+		}),
 		pageMetadataPlugin(),
 		{
 			name: 'pages-asset-headers',
