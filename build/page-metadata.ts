@@ -13,6 +13,8 @@ function renderPage(template: string, page: (typeof pages)[number]) {
 	return template
 		.replaceAll('{{pageTitle}}', () => escapeHtml(page.title))
 		.replaceAll('{{pageDescription}}', () => escapeHtml(page.description))
+		.replaceAll('{{pageImage}}', () => escapeHtml(siteUrl + page.image))
+		.replaceAll('{{pageImageAlt}}', () => escapeHtml(page.imageAlt))
 		.replaceAll('{{pagePath}}', () => page.path);
 }
 
