@@ -280,7 +280,9 @@ button:not(:disabled),
 	gap: 16px;
 }
 .ui-dialog-details a {
-	overflow-wrap: anywhere;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .ui-dialog-icon {
 	flex-shrink: 0;
@@ -302,6 +304,7 @@ button:not(:disabled),
 }
 .ui-copy-button {
 	display: inline-flex;
+	flex-shrink: 0;
 	align-items: center;
 	align-self: center;
 	border: 0;
@@ -592,9 +595,6 @@ button:not(:disabled),
 	}
 	.ui-dialog-details .modal-title {
 		margin-top: 8px;
-	}
-	.ui-dialog-details a {
-		white-space: normal;
 	}
 	.ui-menu-extra {
 		margin-inline-start: 8px;

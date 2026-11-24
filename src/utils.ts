@@ -158,14 +158,6 @@ export const getAliases = (icon?: Icon) => {
 	return [...new Set([...aka, ...old, ...dup, ...loc])];
 };
 
-export const ellipsis = (text: string, maxLength: number) =>
-	text.length > maxLength ? `${text.slice(0, maxLength)}...` : text;
-
-export const tidyLink = (url: string, isMobileSize?: boolean) => {
-	const tidyUrl = url.replace(/^https:\/\//, '').replace(/^www\./, '');
-	return isMobileSize ? tidyUrl : ellipsis(tidyUrl, 30);
-};
-
 export const encodeBadgeContentParameters = (parameters: string[]) =>
 	parameters.map((p) =>
 		encodeURIComponent(p.replaceAll('-', '--').replaceAll('_', '__')),

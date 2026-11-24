@@ -5,7 +5,30 @@ import {getContrastingIconColor} from '#components/ui/icon-color.js';
 import {useSurfaceTheme} from '#components/ui/theme.js';
 import {useI18n} from '#hooks';
 import {ColorMode, type Icon} from '#types';
-import {getAliases, tidyLink} from '#utils';
+import {getAliases} from '#utils';
+
+function DetailLink({
+	url,
+	label,
+}: {
+	readonly url: string;
+	readonly label?: string;
+}) {
+	return (
+		<CopyText text={url}>
+			<a
+				className="ui-link"
+				dir="ltr"
+				href={url}
+				rel="noopener nofollow noreferrer"
+				target="_blank"
+				title={url}
+			>
+				{label ?? url.replace(/^https?:\/\//, '').replace(/^www\./, '')}
+			</a>
+		</CopyText>
+	);
+}
 
 function ModalContent({icon}: {readonly icon?: Icon}) {
 	const [colorMode] = useColorMode();
@@ -82,59 +105,27 @@ function ModalContent({icon}: {readonly icon?: Icon}) {
 							? i18n.modal.sourceAndGuidelines
 							: i18n.modal.source}
 					</div>
-					<CopyText text={icon.source}>
-						<a
-							className="ui-link"
-							href={icon.source}
-							rel="noopener nofollow noreferrer"
-							target="_blank"
-						>
-							<bdi>{tidyLink(icon.source)}</bdi>
-						</a>
-					</CopyText>
+					<DetailLink url={icon.source} />
 				</div>
 
 				{icon.source !== icon.guidelines && icon.guidelines ? (
 					<div className="flex flex-col">
 						<div className="modal-title">{i18n.modal.guidelines}</div>
-						<CopyText text={icon.guidelines}>
-							<a
-								className="ui-link"
-								href={icon.guidelines}
-								rel="noopener nofollow noreferrer"
-								target="_blank"
-							>
-								<bdi>{tidyLink(icon.guidelines)}</bdi>
-							</a>
-						</CopyText>
+						<DetailLink url={icon.guidelines} />
 					</div>
 				) : null}
 
 				{icon.license ? (
 					<div className="flex flex-col">
 						<div className="modal-title">{i18n.modal.license}</div>
-						<CopyText
-							text={
-								'url' in icon.license
-									? icon.license.url
-									: `https://spdx.org/licenses/${icon.license.type}`
-							}
-						>
-							<a
-								className="ui-link"
-								href={
-									'url' in icon.license
-										? icon.license.url
-										: `https://spdx.org/licenses/${icon.license.type}`
-								}
-								rel="noopener nofollow noreferrer"
-								target="_blank"
-							>
-								{'url' in icon.license
-									? tidyLink(icon.license.url)
-									: icon.license.type}
-							</a>
-						</CopyText>
+						{'url' in icon.license ? (
+							<DetailLink url={icon.license.url} />
+						) : (
+							<DetailLink
+								label={icon.license.type}
+								url={`https://spdx.org/licenses/${icon.license.type}`}
+							/>
+						)}
 					</div>
 				) : null}
 			</div>
