@@ -32,7 +32,7 @@ export default function Socials() {
 						key: 'simpleicons.org',
 						label: i18n.controls.websiteSource,
 						icon: <IconWorld aria-hidden />,
-						href: 'https://github.com/LitoMore/simpleicons.org',
+						href: 'https://github.com/simple-icons/simpleicons.org',
 					},
 				]}
 			>

@@ -67,7 +67,7 @@ export default function EmptyView() {
 								? 'ui-link not-hover:text-[#878787]!'
 								: 'ui-link not-hover:text-[#737373]!'
 						}
-						href="https://github.com/LitoMore/simpleicons.org"
+						href="https://github.com/simple-icons/simpleicons.org"
 						rel="noopener nofollow noreferrer"
 						target="_blank"
 					>
