@@ -22,11 +22,11 @@ borderless and limit the lettering to the publisher credit and headline.
 
 ## Subjects for the current covers
 
-| Cover and headline | Subject prompt |
-| --- | --- |
-| [Icon Previewer](../public/social/preview.jpg) | Repeat a crisp black GitHub Octocat silhouette at three different sizes on an ivory specimen sheet. Use faint alignment guides and a single cobalt blue accent. |
-| [3D Magnet Generator](../public/social/3d.jpg) | Photograph a cobalt blue 3D-printed Octocat on a thick matching contour base. Place a detached round silver magnet below it. Show fine filament layers and soft shadows on an ivory studio surface. |
-| [Simple Icons CDN](../public/social/cdn.jpg) | Connect a navy Octocat tile to three offset miniature browser windows with cobalt routing lines. Show the same icon in a different color in each window. Use light and dark window backgrounds. |
-| [Open Graph Generator](../public/social/og.jpg) | Photograph a slightly angled stack of three landscape print proofs. Give the black top card a grid of colorful technology brand symbols, with cobalt blue and white backing cards beneath it. |
+| Cover and headline                              | Subject prompt                                                                                                                                                                                      |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Icon Previewer](../public/social/preview.jpg)  | Repeat a crisp black GitHub Octocat silhouette at three different sizes on an ivory specimen sheet. Use faint alignment guides and a single cobalt blue accent.                                     |
+| [3D Magnet Generator](../public/social/3d.jpg)  | Photograph a cobalt blue 3D-printed Octocat on a thick matching contour base. Place a detached round silver magnet below it. Show fine filament layers and soft shadows on an ivory studio surface. |
+| [Simple Icons CDN](../public/social/cdn.jpg)    | Connect a navy Octocat tile to three offset miniature browser windows with cobalt routing lines. Show the same icon in a different color in each window. Use light and dark window backgrounds.     |
+| [Open Graph Generator](../public/social/og.jpg) | Photograph a slightly angled stack of three landscape print proofs. Give the black top card a grid of colorful technology brand symbols, with cobalt blue and white backing cards beneath it.       |
 
 Export the finished cover as a **1200 × 630 JPEG** in [public/social](../public/social/). Set the page’s `image` path and describe the final artwork in `imageAlt` in [src/page-metadata.ts](../src/page-metadata.ts).
