@@ -36,6 +36,7 @@ export type Internationalization = {
 	};
 	catalog: {loading: string};
 	controls: {
+		cdnSource: string;
 		iconLibrarySource: string;
 		legalDisclaimer: string;
 		websiteSource: string;

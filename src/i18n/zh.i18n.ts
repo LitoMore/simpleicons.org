@@ -10,7 +10,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '正在加载'},
 	controls: {
-		iconLibrarySource: '图标库源码',
+		cdnSource: 'Simple Icons CDN 源码',
+		iconLibrarySource: 'Simple Icons 图标库源码',
 		legalDisclaimer: '法律声明',
 		websiteSource: '网站源码',
 	},

@@ -12,7 +12,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Ładowanie'},
 	controls: {
-		iconLibrarySource: 'Kod źródłowy biblioteki ikon',
+		cdnSource: 'Kod źródłowy Simple Icons CDN',
+		iconLibrarySource: 'Kod źródłowy biblioteki Simple Icons',
 		legalDisclaimer: 'Zastrzeżenie prawne',
 		websiteSource: 'Kod źródłowy strony',
 	},

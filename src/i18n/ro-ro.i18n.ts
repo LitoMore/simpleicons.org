@@ -12,7 +12,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Se încarcă'},
 	controls: {
-		iconLibrarySource: 'Codul sursă al bibliotecii de pictograme',
+		cdnSource: 'Codul sursă al Simple Icons CDN',
+		iconLibrarySource: 'Codul sursă al bibliotecii Simple Icons',
 		legalDisclaimer: 'Avertisment legal',
 		websiteSource: 'Codul sursă al site-ului',
 	},

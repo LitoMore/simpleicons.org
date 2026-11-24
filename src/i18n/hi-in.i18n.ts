@@ -12,7 +12,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'लोड हो रहा है'},
 	controls: {
-		iconLibrarySource: 'आइकन लाइब्रेरी का सोर्स कोड',
+		cdnSource: 'Simple Icons CDN का सोर्स कोड',
+		iconLibrarySource: 'Simple Icons लाइब्रेरी का सोर्स कोड',
 		legalDisclaimer: 'कानूनी अस्वीकरण',
 		websiteSource: 'वेबसाइट का सोर्स कोड',
 	},

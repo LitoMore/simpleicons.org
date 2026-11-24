@@ -11,7 +11,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Laster'},
 	controls: {
-		iconLibrarySource: 'Kildekode for ikonbiblioteket',
+		cdnSource: 'Kildekode for Simple Icons CDN',
+		iconLibrarySource: 'Kildekode for Simple Icons-biblioteket',
 		legalDisclaimer: 'Juridisk ansvarsfraskrivelse',
 		websiteSource: 'Kildekode for nettstedet',
 	},

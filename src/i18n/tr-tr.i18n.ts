@@ -13,7 +13,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Yükleniyor'},
 	controls: {
-		iconLibrarySource: 'Simge kitaplığının kaynak kodu',
+		cdnSource: 'Simple Icons CDN kaynak kodu',
+		iconLibrarySource: 'Simple Icons kitaplığının kaynak kodu',
 		legalDisclaimer: 'Yasal Sorumluluk Reddi',
 		websiteSource: 'Web sitesinin kaynak kodu',
 	},

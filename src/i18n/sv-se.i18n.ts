@@ -12,7 +12,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Laddar'},
 	controls: {
-		iconLibrarySource: 'Ikonbibliotekets källkod',
+		cdnSource: 'Källkod för Simple Icons CDN',
+		iconLibrarySource: 'Källkod för Simple Icons-biblioteket',
 		legalDisclaimer: 'Juridisk ansvarsfriskrivning',
 		websiteSource: 'Webbplatsens källkod',
 	},

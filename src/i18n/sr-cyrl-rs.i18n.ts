@@ -11,7 +11,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Учитавање'},
 	controls: {
-		iconLibrarySource: 'Изворни код библиотеке иконица',
+		cdnSource: 'Изворни код за Simple Icons CDN',
+		iconLibrarySource: 'Изворни код библиотеке Simple Icons',
 		legalDisclaimer: 'Правно упозорење',
 		websiteSource: 'Изворни код веб-сајта',
 	},

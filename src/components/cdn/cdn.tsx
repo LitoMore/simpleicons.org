@@ -8,12 +8,12 @@ import {
 import {useIcons} from '#atom';
 import {CopyText} from '#components/ui/copy-text.js';
 import {SegmentedControl} from '#components/ui/form.js';
+import {simpleIconsCdnRepository} from '#constants';
 import {useColorScheme, useSearcher} from '#hooks';
 import {getSimpleIconsCdnUrl} from '#utils';
 import {useCdnI18n} from './i18n.js';
 import OtherUsages from './other-usages.js';
 
-const repository = 'https://github.com/LitoMore/simple-icons-cdn';
 const endpoint =
 	'https://cdn.simpleicons.org/:icon_slug/:color?/:dark_mode_color?';
 type Format = 'url' | 'html' | 'markdown' | 'terminal';
@@ -206,7 +206,7 @@ export default function Cdn() {
 				<p className="cdn-intro">{labels.intro}</p>
 				<a
 					className="cdn-repository"
-					href={repository}
+					href={simpleIconsCdnRepository}
 					rel="noreferrer"
 					target="_blank"
 				>
@@ -453,7 +453,11 @@ export default function Cdn() {
 				>
 					{labels.legal}
 				</a>
-				<a href={`${repository}#readme`} rel="noreferrer" target="_blank">
+				<a
+					href={`${simpleIconsCdnRepository}#readme`}
+					rel="noreferrer"
+					target="_blank"
+				>
 					{labels.readme}
 					<IconArrowUpRight aria-hidden size={14} />
 				</a>

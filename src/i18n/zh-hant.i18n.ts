@@ -11,7 +11,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '正在載入'},
 	controls: {
-		iconLibrarySource: '圖示庫原始碼',
+		cdnSource: 'Simple Icons CDN 原始碼',
+		iconLibrarySource: 'Simple Icons 圖示庫原始碼',
 		legalDisclaimer: '法律聲明',
 		websiteSource: '網站原始碼',
 	},

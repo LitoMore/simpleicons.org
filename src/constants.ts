@@ -2,6 +2,9 @@ import {type OpenGraphImage} from '#types';
 
 export const linkRel = 'noopener nofollow noreferrer';
 
+export const simpleIconsCdnRepository =
+	'https://github.com/LitoMore/simple-icons-cdn';
+
 export const spinning = {animation: 'spin 1s linear infinite'};
 
 export const mobileWidth = 435;

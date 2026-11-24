@@ -13,7 +13,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Φόρτωση'},
 	controls: {
-		iconLibrarySource: 'Πηγαίος κώδικας βιβλιοθήκης εικονιδίων',
+		cdnSource: 'Πηγαίος κώδικας του Simple Icons CDN',
+		iconLibrarySource: 'Πηγαίος κώδικας της βιβλιοθήκης Simple Icons',
 		legalDisclaimer: 'Νομική Αποποίηση',
 		websiteSource: 'Πηγαίος κώδικας ιστοτόπου',
 	},

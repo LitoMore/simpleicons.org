@@ -13,7 +13,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Chargement'},
 	controls: {
-		iconLibrarySource: 'Code source de la bibliothèque d’icônes',
+		cdnSource: 'Code source de Simple Icons CDN',
+		iconLibrarySource: 'Code source de la bibliothèque Simple Icons',
 		legalDisclaimer: 'Avertissement juridique',
 		websiteSource: 'Code source du site web',
 	},

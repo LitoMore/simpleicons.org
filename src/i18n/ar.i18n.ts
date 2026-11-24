@@ -11,7 +11,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'جارٍ التحميل'},
 	controls: {
-		iconLibrarySource: 'الشفرة المصدرية لمكتبة الأيقونات',
+		cdnSource: 'الشفرة المصدرية لـ Simple Icons CDN',
+		iconLibrarySource: 'الشفرة المصدرية لمكتبة Simple Icons',
 		legalDisclaimer: 'إخلاء المسؤولية القانونية',
 		websiteSource: 'الشفرة المصدرية للموقع',
 	},

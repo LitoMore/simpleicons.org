@@ -13,7 +13,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '読み込み中'},
 	controls: {
-		iconLibrarySource: 'アイコンライブラリのソースコード',
+		cdnSource: 'Simple Icons CDN のソースコード',
+		iconLibrarySource: 'Simple Icons ライブラリのソースコード',
 		legalDisclaimer: '法的免責事項',
 		websiteSource: 'ウェブサイトのソースコード',
 	},

@@ -11,7 +11,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Loading'},
 	controls: {
-		iconLibrarySource: 'Icon library source',
+		cdnSource: 'Simple Icons CDN source',
+		iconLibrarySource: 'Simple Icons library source',
 		legalDisclaimer: 'Legal Disclaimer',
 		websiteSource: 'Website source',
 	},

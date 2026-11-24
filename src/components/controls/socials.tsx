@@ -1,7 +1,7 @@
 import {IconWorld} from '@tabler/icons-react';
 import BrandIcon from '#components/common/brand-icon.js';
 import {Dropdown} from '#components/ui/dropdown.js';
-import {linkRel} from '#constants';
+import {linkRel, simpleIconsCdnRepository} from '#constants';
 import {useColorScheme, useI18n} from '#hooks';
 
 const socialClassName =
@@ -21,6 +21,12 @@ export default function Socials() {
 						label: i18n.controls.iconLibrarySource,
 						icon: <BrandIcon color="currentColor" slug="simpleicons" />,
 						href: 'https://github.com/simple-icons/simple-icons',
+					},
+					{
+						key: 'simple-icons-cdn',
+						label: i18n.controls.cdnSource,
+						icon: <BrandIcon color="currentColor" slug="simpleiconscdn" />,
+						href: simpleIconsCdnRepository,
 					},
 					{
 						key: 'simpleicons.org',

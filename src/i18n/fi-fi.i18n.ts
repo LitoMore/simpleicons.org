@@ -13,7 +13,8 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Ladataan'},
 	controls: {
-		iconLibrarySource: 'Kuvakekirjaston lähdekoodi',
+		cdnSource: 'Simple Icons CDN:n lähdekoodi',
+		iconLibrarySource: 'Simple Icons -kirjaston lähdekoodi',
 		legalDisclaimer: 'Oikeudellinen ilmoitus',
 		websiteSource: 'Verkkosivuston lähdekoodi',
 	},
