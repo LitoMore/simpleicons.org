@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Φόρτωση'},
 	controls: {
+		iconLibrarySource: 'Πηγαίος κώδικας βιβλιοθήκης εικονιδίων',
 		legalDisclaimer: 'Νομική Αποποίηση',
+		websiteSource: 'Πηγαίος κώδικας ιστοτόπου',
 	},
 	footer: {
 		iconMissing: 'Λείπει εικονίδιο;',

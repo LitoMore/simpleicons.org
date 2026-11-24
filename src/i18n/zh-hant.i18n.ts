@@ -11,7 +11,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '正在載入'},
 	controls: {
+		iconLibrarySource: '圖示庫原始碼',
 		legalDisclaimer: '法律聲明',
+		websiteSource: '網站原始碼',
 	},
 	footer: {
 		iconMissing: '缺少圖示？',

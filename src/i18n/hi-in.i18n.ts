@@ -12,7 +12,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'लोड हो रहा है'},
 	controls: {
+		iconLibrarySource: 'आइकन लाइब्रेरी का सोर्स कोड',
 		legalDisclaimer: 'कानूनी अस्वीकरण',
+		websiteSource: 'वेबसाइट का सोर्स कोड',
 	},
 	footer: {
 		iconMissing: 'आइकन गायब है?',

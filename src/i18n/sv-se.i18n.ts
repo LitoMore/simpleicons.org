@@ -12,7 +12,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Laddar'},
 	controls: {
+		iconLibrarySource: 'Ikonbibliotekets källkod',
 		legalDisclaimer: 'Juridisk ansvarsfriskrivning',
+		websiteSource: 'Webbplatsens källkod',
 	},
 	footer: {
 		iconMissing: 'Saknas en ikon?',

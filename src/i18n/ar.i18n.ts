@@ -11,7 +11,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'جارٍ التحميل'},
 	controls: {
+		iconLibrarySource: 'الشفرة المصدرية لمكتبة الأيقونات',
 		legalDisclaimer: 'إخلاء المسؤولية القانونية',
+		websiteSource: 'الشفرة المصدرية للموقع',
 	},
 	footer: {
 		iconMissing: 'أيقونة مفقودة؟',

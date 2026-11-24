@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Yükleniyor'},
 	controls: {
+		iconLibrarySource: 'Simge kitaplığının kaynak kodu',
 		legalDisclaimer: 'Yasal Sorumluluk Reddi',
+		websiteSource: 'Web sitesinin kaynak kodu',
 	},
 	footer: {
 		iconMissing: 'İkon eksik mi?',

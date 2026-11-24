@@ -12,7 +12,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Se încarcă'},
 	controls: {
+		iconLibrarySource: 'Codul sursă al bibliotecii de pictograme',
 		legalDisclaimer: 'Avertisment legal',
+		websiteSource: 'Codul sursă al site-ului',
 	},
 	footer: {
 		iconMissing: 'Lipsește o pictogramă?',

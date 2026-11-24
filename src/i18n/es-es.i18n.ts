@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Cargando'},
 	controls: {
+		iconLibrarySource: 'Código fuente de la biblioteca de iconos',
 		legalDisclaimer: 'Aviso legal',
+		websiteSource: 'Código fuente del sitio web',
 	},
 	footer: {
 		iconMissing: '¿Falta un icono?',

@@ -12,7 +12,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Загрузка'},
 	controls: {
+		iconLibrarySource: 'Исходный код библиотеки иконок',
 		legalDisclaimer: 'Правовое уведомление',
+		websiteSource: 'Исходный код сайта',
 	},
 	footer: {
 		iconMissing: 'Значок отсутствует?',

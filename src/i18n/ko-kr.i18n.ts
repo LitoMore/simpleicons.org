@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '불러오는 중'},
 	controls: {
+		iconLibrarySource: '아이콘 라이브러리 소스 코드',
 		legalDisclaimer: '법적 면책 조항',
+		websiteSource: '웹사이트 소스 코드',
 	},
 	footer: {
 		iconMissing: '아이콘이 없나요?',

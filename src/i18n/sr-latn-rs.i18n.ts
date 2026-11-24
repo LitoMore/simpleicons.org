@@ -11,7 +11,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Učitavanje'},
 	controls: {
+		iconLibrarySource: 'Izvorni kod biblioteke ikonica',
 		legalDisclaimer: 'Pravno upozorenje',
+		websiteSource: 'Izvorni kod veb-sajta',
 	},
 	footer: {
 		iconMissing: 'Nedostaje ikonica?',

@@ -11,7 +11,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Laster'},
 	controls: {
+		iconLibrarySource: 'Kildekode for ikonbiblioteket',
 		legalDisclaimer: 'Juridisk ansvarsfraskrivelse',
+		websiteSource: 'Kildekode for nettstedet',
 	},
 	footer: {
 		iconMissing: 'Mangler ikon?',

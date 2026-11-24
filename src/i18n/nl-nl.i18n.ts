@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Laden'},
 	controls: {
+		iconLibrarySource: 'Broncode van de pictogrambibliotheek',
 		legalDisclaimer: 'Wettelijke kennisgeving',
+		websiteSource: 'Broncode van de website',
 	},
 	footer: {
 		iconMissing: 'Icoon ontbreekt?',

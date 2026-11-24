@@ -10,7 +10,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '正在加载'},
 	controls: {
+		iconLibrarySource: '图标库源码',
 		legalDisclaimer: '法律声明',
+		websiteSource: '网站源码',
 	},
 	footer: {
 		iconMissing: '缺少图标？',

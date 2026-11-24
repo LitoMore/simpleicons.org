@@ -11,7 +11,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Loading'},
 	controls: {
+		iconLibrarySource: 'Icon library source',
 		legalDisclaimer: 'Legal Disclaimer',
+		websiteSource: 'Website source',
 	},
 	footer: {
 		iconMissing: 'Icon missing?',

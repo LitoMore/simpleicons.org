@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: '読み込み中'},
 	controls: {
+		iconLibrarySource: 'アイコンライブラリのソースコード',
 		legalDisclaimer: '法的免責事項',
+		websiteSource: 'ウェブサイトのソースコード',
 	},
 	footer: {
 		iconMissing: 'アイコンがない？',

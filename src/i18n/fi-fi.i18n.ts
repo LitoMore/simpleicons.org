@@ -13,7 +13,9 @@ const translation: Internationalization = {
 	},
 	catalog: {loading: 'Ladataan'},
 	controls: {
+		iconLibrarySource: 'Kuvakekirjaston lähdekoodi',
 		legalDisclaimer: 'Oikeudellinen ilmoitus',
+		websiteSource: 'Verkkosivuston lähdekoodi',
 	},
 	footer: {
 		iconMissing: 'Puuttuuko kuvake?',
