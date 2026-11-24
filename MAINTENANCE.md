@@ -25,6 +25,11 @@ search calculations run as JavaScript inside the Worker.
 `npm test` validates the Wasm encoding and catalog contents, builds the site, and
 runs lint. The build emits the catalog and Worker beside the other static assets.
 
+## Open Graph covers
+
+When adding or updating a tool page’s sharing image, use the shared prompt and
+visual references in [Open Graph cover prompts](docs/open-graph-covers.md).
+
 ## Caching on Cloudflare Pages
 
 The build generates `dist/_headers` with a one-year browser cache rule for each
