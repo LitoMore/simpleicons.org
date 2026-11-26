@@ -78,5 +78,10 @@
 		"vite-plugin-static-copy": "^4.1.1",
 		"wrangler": "^4.151.3",
 		"xo": "^5.0.1"
+	},
+	"overrides": {
+		"micromark-extension-math": {
+			"katex@^0.16.0": "^0.18.2"
+		}
 	}
 }
