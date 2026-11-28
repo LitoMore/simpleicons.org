@@ -25,6 +25,23 @@ search calculations run as JavaScript inside the Worker.
 `npm test` validates the Wasm encoding and catalog contents, builds the site, and
 runs lint. The build emits the catalog and Worker beside the other static assets.
 
+## Deploying a Simple Icons release
+
+After publishing to npm, the `simple-icons/simple-icons` release workflow can
+set `GH_TOKEN` to its GitHub App installation token and run:
+
+```sh
+gh workflow run auto-release.yml --repo simple-icons/simpleicons.org --ref main
+```
+
+The caller's installation token needs **Actions: write** on
+`simple-icons/simpleicons.org`. The receiving workflow updates the npm dependency
+and lockfile to `simple-icons@latest`. When they change, it runs `npm test` and
+pushes the update to `main`, triggering the existing Cloudflare Pages deployment.
+For the push, this repository needs access to the `BOT_CLIENT_ID` and
+`BOT_PRIVATE_KEY` Actions secrets for a GitHub App allowed to write contents
+and push to `main`.
+
 ## Open Graph covers
 
 When adding or updating a tool page’s sharing image, use the shared prompt and
